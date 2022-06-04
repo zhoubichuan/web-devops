@@ -11,7 +11,7 @@ git init
 git checkout --orphan gh-pages
 git add .
 git commit -m 'gh-pages'
-git remote add origin https://github.com/zhoubichuan/Web-devops.git
+git remote add origin https://github.com/zhoubichuan/web-devops.git
 git push -f origin gh-pages
 
 # 4.返回初始目录
