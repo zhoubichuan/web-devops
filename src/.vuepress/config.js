@@ -39,23 +39,19 @@ module.exports = {
     },
   },
   port: 3009,
-  dest: "dist", // 指定 vuepress build 的输出目录
+  dest: "web-devops", // 指定 vuepress build 的输出目录
   serviceWorker: true, // pwa
   themeConfig: {
     repo: 'https://github.com/zhoubichuan/web-devops', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
-    editLinks: true,
-    docsDir: "src", // 假如文档不是放在仓库的根目录下
-    locales: {
-      "/": {
-        docsBranch: "master", // 假如文档放在一个特定的分支下
-        editLinks: true, // 启用编辑
-        editLinkText: '在github上编辑此页',
-        lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
-        nav: require('./nav.js'),
-        sidebar: require('./sidebar.js'),
-      },
-    },
+    editLinks: true, // 编辑链接
+    docsDir: 'src', // 假如文档不是放在仓库的根目录下
+    editLinkText: '在github上编辑此页',
+    sidebarDepth: 2,
+    lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
+    nav: require('./nav.js'),
+    sidebar: require('./sidebar.js'),
+    searchMaxSuggestoins: 10
   },
 }
