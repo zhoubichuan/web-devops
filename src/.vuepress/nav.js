@@ -3,23 +3,23 @@ const nav = [
         text: '基础知识',
         items: [
             {
-                text: '一.linux',
+                text: '一.linux基础',
                 link: '/base/linux/1.index'
             },
             {
-                text: '二.CICD',
+                text: '二.cicd',
                 link: '/base/auth/1.index',
             },
             {
-                text: '七.system',
+                text: '三.shell',
                 link: '/base/system/1.index',
             },
             {
-                text: '八.service',
+                text: '四.vim',
                 link: '/base/service/1.index',
             },
             {
-                text: '九.network',
+                text: '五.network',
                 link: '/base/network/1.index',
             }
         ]
@@ -28,7 +28,7 @@ const nav = [
         text: '相关应用',
         items: [
             {
-                text: '一.vi',
+                text: '一.vim',
                 link: '/application/vi/1.index',
             },
             {
