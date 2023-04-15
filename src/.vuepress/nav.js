@@ -6,22 +6,22 @@ const nav = [
                 text: '一.linux基础',
                 link: '/base/linux/1.index'
             },
-            // {
-            //     text: '二.cicd',
-            //     link: '/base/auth/1.index',
-            // },
-            // {
-            //     text: '三.shell',
-            //     link: '/base/system/1.index',
-            // },
-            // {
-            //     text: '四.vim',
-            //     link: '/base/service/1.index',
-            // },
-            // {
-            //     text: '五.network',
-            //     link: '/base/network/1.index',
-            // }
+            {
+                text: '二.cicd',
+                link: '/base/auth/1.index',
+            },
+            {
+                text: '三.系统工具',
+                link: '/base/system/1.index',
+            },
+            {
+                text: '四.前端工具',
+                link: '/base/service/1.index',
+            },
+            {
+                text: '五.后端工具',
+                link: '/base/network/1.index',
+            }
         ]
     },
     {
@@ -31,18 +31,18 @@ const nav = [
                 text: '一.vim',
                 link: '/application/vi/1.index',
             },
-            // {
-            //     text: '二.Kubernetes',
-            //     link: '/application/user/1.index',
-            // },
-            // {
-            //     text: '三.VMware',
-            //     link: '/application/shell/1.index',
-            // },
-            // {
-            //     text: '四.Parallels',
-            //     link: '/application/install/1.index',
-            // },
+            {
+                text: '二.Kubernetes',
+                link: '/application/user/1.index',
+            },
+            {
+                text: '三.VMware',
+                link: '/application/shell/1.index',
+            },
+            {
+                text: '四.Parallels',
+                link: '/application/install/1.index',
+            },
         ]
     },
     // {

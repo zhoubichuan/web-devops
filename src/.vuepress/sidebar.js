@@ -54,6 +54,7 @@ const sidebar = {
   ],
   '/application/vi/': [
     '1.index',
+    '1.docker',
     '2.Jenkins',
     '3.gitlab',
     'vscode',
