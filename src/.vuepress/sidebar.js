@@ -15,7 +15,7 @@ const sidebar = {
     '14.data',
     '15.api',
   ],
-  '/base/auth/': [
+  '/base/jenkins/': [
     '1.index',
     '2.Jenkins',
     '3.gitlab',

@@ -7,8 +7,8 @@ const nav = [
                 link: '/base/linux/1.index'
             },
             {
-                text: '二.cicd',
-                link: '/base/auth/1.index',
+                text: '二.jenkins',
+                link: '/base/jenkins/1.index',
             },
             {
                 text: '三.系统工具',
