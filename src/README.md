@@ -3,7 +3,7 @@ lang: zh-CN
 home: true
 heroImage: ./home.png
 actionText: 先睹为快 →
-actionLink: /base/build/1.config
+actionLink: /base/linux/1.index
 pageClass: page_index
 footer: devops相关知识
 meta:
