@@ -7,7 +7,7 @@ const nav = [
                 link: '/base/linux/1.index'
             },
             {
-                text: '二.jenkins',
+                text: '二.运维工具',
                 link: '/base/jenkins/1.index',
             },
             {
