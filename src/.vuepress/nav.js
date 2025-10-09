@@ -16,11 +16,11 @@ const nav = [
             },
             {
                 text: '四.前端工具',
-                link: '/base/service/1.index',
+                link: '/base/frontend/1.index',
             },
             {
                 text: '五.后端工具',
-                link: '/base/network/1.index',
+                link: '/base/backend/1.index',
             }
         ]
     },

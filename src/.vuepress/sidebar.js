@@ -34,16 +34,16 @@ const sidebar = {
     'prem',
     'i18n'
   ],
-  '/base/service/': [
+  '/base/frontend/': [
     '1.index',
-    '2.Jenkins',
-    '3.gitlab',
-    'vscode',
-    'test',
-    'prem',
-    'i18n'
+    '1.dev',
+    '2.sit',
+    '3.uat',
+    '4.pet',
+    '5.sim',
+    '6.prod'
   ],
-  '/base/network/': [
+  '/base/backend/': [
     '1.index',
     '2.Jenkins',
     '3.gitlab',
