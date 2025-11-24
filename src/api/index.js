@@ -1,6 +1,6 @@
 export * from "./getJsonData";
 export * from "./login";
-export * from "./relationEntity";
+export * from "./file";
 import * as localhost from "./localhost";
 export * from "./dtaInstance";
 import * as example from "./example";

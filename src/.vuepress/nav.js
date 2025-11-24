@@ -15,7 +15,7 @@ const nav = [
                 link: '/base/system/1.index',
             },
             {
-                text: '四.前端工具',
+                text: '四.前端部署',
                 link: '/base/frontend/1.index',
             },
             {
