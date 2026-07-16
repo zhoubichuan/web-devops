@@ -1,18 +1,24 @@
-# devops 学习笔记
+# DevOps 学习笔记
 
-![一.Vue 的工程化](./src/.vuepress/public/home.png)
+![DevOps 学习笔记](./src/.vuepress/public/home.png)
 
 - 基础知识
-  - [一.linux](./base/engine/1.index.html)
-  - [二.Vue 功能模块](./base/project/1.index.html)
-  - [三.Vue 2.x 基础](./base/vue2.x/1.index.html)
-  - [四.Vue 3.x 基础](./base/vue3.x/1.index.html)
+  - [一.Linux 基础](./src/base/linux/1.index.md)
+  - [二.运维工具](./src/base/jenkins/1.index.md)
+  - [三.系统工具](./src/base/system/1.index.md)
+  - [四.前端部署](./src/base/frontend/1.index.md)
+  - [五.后端工具](./src/base/backend/1.index.md)
 - 相关应用
-  - [一.Vue 组件开发](./senior/component/1.index.html)
-  - [二.TypeScript](./senior/typescript/1.index.html)
-  - [三.构建部署](./senior/deploy/1.index.html)
+  - [一.Vi 编辑器](./src/application/vi/1.index.md)
+  - [二.Kubernetes](./src/application/user/1.index.md)
+  - [三.VMware](./src/application/shell/1.index.md)
+  - [四.Parallels](./src/application/install/1.index.md)
 - 高级知识
-  - [一.Vue/cli2.x](./source/vue-cli2.x/1.index.html)
-  - [二.Vue 2.x](./source/vue2.x/1.index.html)
-  - [三.Vue-Router3.x](./source/vue-router3.x/1.index.html)
-  - [四.Vuex3.x](./source/vuex3.x/1.index.html)
+  - [一.Nginx](./src/senior/nginx/1.index.md)
+  - [二.Docker](./src/senior/docker/1.index.md)
+  - [三.Jenkins](./src/senior/jenkins/1.index.md)
+  - [四.Groovy](./src/senior/groovy/1.index.md)
+  - [五.PHP](./src/senior/php/1.index.md)
+  - [六.Java](./src/senior/java/1.index.md)
+  - [七.Node.js](./src/senior/node/1.index.md)
+  - [八.Kubernetes](./src/senior/k8s/1.index.md)
